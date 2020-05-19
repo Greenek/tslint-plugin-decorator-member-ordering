@@ -1,0 +1,6 @@
+{
+    "rulesDirector": "./rules",
+    "rules": {
+        "decorator-member-ordering": true
+    }
+}

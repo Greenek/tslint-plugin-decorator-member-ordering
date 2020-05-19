@@ -1,0 +1,33 @@
+{
+    "name": "tslint-plugin-decorator-member-ordering",
+    "version": "0.0.1",
+    "description": "TSLint plugin extending member-ordering rule with decorators support",
+    "main": "rules/index.js",
+    "scripts": {
+        "prepublish": "npm run build",
+        "test": "nyc tslint --test ./test/*/*",
+        "lint": "tslint -p .",
+        "prebuild": "rm -rf ./rules",
+        "build": "tsc -p ./tsconfig.build.json"
+    },
+    "keywords": [
+        "tslint",
+        "tslint-plugins",
+        "tslint-rules"
+    ],
+    "author": {
+        "name": "Paweł Golonko",
+        "email": "pgolonko@gmail.com",
+        "url": "https://github.com/Greenek"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.0.1",
+        "nyc": "^15.0.1",
+        "prettier": "^2.0.5",
+        "tslint": "^6.1.2",
+        "tslint-config-prettier": "^1.18.0",
+        "tslint-plugin-prettier": "^2.3.0",
+        "typescript": "^3.9.2"
+    }
+}

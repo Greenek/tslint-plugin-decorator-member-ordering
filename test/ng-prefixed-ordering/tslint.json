@@ -1,0 +1,11 @@
+{
+    "rulesDirectory": ["../../rules"],
+    "rules": {
+        "decorator-member-ordering": [
+            true,
+            {
+                "order": ["instance-field", "constructor", "ng-instance-method", "instance-method"]
+            }
+        ]
+    }
+}

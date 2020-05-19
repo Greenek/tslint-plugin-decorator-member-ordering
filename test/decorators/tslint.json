@@ -1,0 +1,17 @@
+{
+    "rulesDirectory": ["../../rules"],
+    "rules": {
+        "decorator-member-ordering": [
+            true,
+            {
+                "order": [
+                    "decorated-field",
+                    "instance-field",
+                    "decorated-method",
+                    "constructor",
+                    "instance-method"
+                ]
+            }
+        ]
+    }
+}

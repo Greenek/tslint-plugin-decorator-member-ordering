@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "lib": ["DOM", "ES6"],
+        "module": "CommonJS",
+        "declaration": true,
+        "importHelpers": true
+    },
+    "include": ["src/**/*.ts"]
+}

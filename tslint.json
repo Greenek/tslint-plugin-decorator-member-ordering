@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier",
+        "tslint-plugin-prettier",
+        "./tslint-plugin-decorator-member-ordering.json"
+    ],
+    "rules": {
+        "max-classes-per-file": false,
+        "no-console": false
+    }
+}
