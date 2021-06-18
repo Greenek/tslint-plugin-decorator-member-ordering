@@ -1,3 +1,5 @@
+> # ⚠️  TSLint [has been deprecated](https://blog.palantir.com/tslint-in-2019-1a144c2317a9) as of 2019. Please consider [migration to eslint](https://github.com/typescript-eslint/typescript-eslint).
+
 # tslint-plugin-decorator-member-ordering
 
 Extends `member-ordering` rule with decorators and Angular `ng` functions support.
